@@ -207,6 +207,6 @@ char **split_line(char *input)
 		token = _strtok(NULL, TOK_DELIM);
 		tokens[i] = token;
 	}
-	printf("\n");
+
 	return (tokens);
 }

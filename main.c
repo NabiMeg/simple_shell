@@ -69,6 +69,5 @@ int main(int ac, char **av)
 	free_data(&datash);
 	if (datash.status < 0)
 		return (255);
-	printf("\n");
 	return (datash.status);
 }

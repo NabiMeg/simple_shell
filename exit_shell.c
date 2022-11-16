@@ -27,6 +27,5 @@ int exit_shell(data_shell *datash)
 		}
 		datash->status = (ustatus % 256);
 	}
-	printf("\n");
 	return (0);
 }
