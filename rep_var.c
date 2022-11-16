@@ -178,6 +178,6 @@ char *rep_var(char *input, data_shell *datash)
 	free(input);
 	free(status);
 	free_rvar_list(&head);
-
+	printf("\n");
 	return (new_input);
 }

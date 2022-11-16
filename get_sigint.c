@@ -7,5 +7,6 @@
 void get_sigint(int sig)
 {
 	(void)sig;
+	printf("\n");
 	write(STDOUT_FILENO, "\n^-^ ", 5);
 }
